@@ -25,3 +25,63 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("https://media.gq-magazine.co.uk/photos/629630b511721f941a6242f4/master/pass/Best-trainers-HP.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    margin: 50px 0;
+    border: 2px solid #0000FF; /* blue */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#row1, #row2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+#row1-section1, #row2-section1 {
+    width: 50%;
+    text-align: center;
+}
+
+#row1-section2, #row2-section2 {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+#jordans-1-desc {
+    background-color: #0000FF; /* blue */
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#jordans-2-desc {
+    background-color: #FF0000; /* red */
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
